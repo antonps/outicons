@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Outicons Extra';
-  src: url('../fonts/outicons-extra.eot?41637872');
-  src: url('../fonts/outicons-extra.eot?41637872#iefix') format('embedded-opentype'),
-       url('../fonts/outicons-extra.woff?41637872') format('woff'),
-       url('../fonts/outicons-extra.ttf?41637872') format('truetype'),
-       url('../fonts/outicons-extra.svg?41637872#outicons-extra') format('svg');
+  src: url('../fonts/outicons-extra.eot?94842042');
+  src: url('../fonts/outicons-extra.eot?94842042#iefix') format('embedded-opentype'),
+       url('../fonts/outicons-extra.woff?94842042') format('woff'),
+       url('../fonts/outicons-extra.ttf?94842042') format('truetype'),
+       url('../fonts/outicons-extra.svg?94842042#outicons-extra') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'outicons-extra';
-    src: url('../font/outicons-extra.svg?41637872#outicons-extra') format('svg');
+    src: url('../font/outicons-extra.svg?94842042#outicons-extra') format('svg');
   }
 }
 */
@@ -54,9 +54,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
+.oi-mixer:before { content: '\e800'; } /* '' */
+.oi-auto:before { content: '\e801'; } /* '' */
+.oi-globe:before { content: '\e802'; } /* '' */
+.oi-headset:before { content: '\e803'; } /* '' */
 .oi-ascending:before { content: '\e864'; } /* '' */
 .oi-audio-wave:before { content: '\e865'; } /* '' */
-.oi-auto:before { content: '\e866'; } /* '' */
 .oi-baby:before { content: '\e867'; } /* '' */
 .oi-bag:before { content: '\e868'; } /* '' */
 .oi-battery-charge:before { content: '\e869'; } /* '' */
@@ -86,17 +89,15 @@
 .oi-bullseye:before { content: '\e881'; } /* '' */
 .oi-cabinet:before { content: '\e882'; } /* '' */
 .oi-end:before { content: '\e883'; } /* '' */
-.oi-location-1:before { content: '\e884'; } /* '' */
+.oi-location:before { content: '\e884'; } /* '' */
 .oi-lipstick:before { content: '\e885'; } /* '' */
 .oi-lightbulb:before { content: '\e886'; } /* '' */
 .oi-lamp:before { content: '\e887'; } /* '' */
 .oi-leaf:before { content: '\e888'; } /* '' */
 .oi-key:before { content: '\e889'; } /* '' */
 .oi-joystick:before { content: '\e88a'; } /* '' */
-.oi-headset:before { content: '\e88b'; } /* '' */
-.oi-headphone-1:before { content: '\e88c'; } /* '' */
+.oi-headphone:before { content: '\e88c'; } /* '' */
 .oi-gold-bars:before { content: '\e88d'; } /* '' */
-.oi-globe:before { content: '\e88e'; } /* '' */
 .oi-glasses:before { content: '\e88f'; } /* '' */
 .oi-gift:before { content: '\e890'; } /* '' */
 .oi-cloud:before { content: '\e891'; } /* '' */
@@ -123,7 +124,6 @@
 .oi-shirt:before { content: '\e8a6'; } /* '' */
 .oi-mic:before { content: '\e8a7'; } /* '' */
 .oi-shuffle:before { content: '\e8a8'; } /* '' */
-.oi-mixer:before { content: '\e8a9'; } /* '' */
 .oi-moon:before { content: '\e8aa'; } /* '' */
 .oi-signal:before { content: '\e8ab'; } /* '' */
 .oi-skull:before { content: '\e8ac'; } /* '' */
@@ -135,7 +135,7 @@
 .oi-open-box:before { content: '\e8b2'; } /* '' */
 .oi-speaker:before { content: '\e8b3'; } /* '' */
 .oi-stop:before { content: '\e8b4'; } /* '' */
-.oi-pause-1:before { content: '\e8b5'; } /* '' */
+.oi-pause:before { content: '\e8b5'; } /* '' */
 .oi-pie-chart:before { content: '\e8b6'; } /* '' */
 .oi-storm:before { content: '\e8b7'; } /* '' */
 .oi-sun-cloud:before { content: '\e8b8'; } /* '' */
@@ -144,13 +144,13 @@
 .oi-sun:before { content: '\e8bb'; } /* '' */
 .oi-treble:before { content: '\e8bc'; } /* '' */
 .oi-planet:before { content: '\e8bd'; } /* '' */
-.oi-play-1:before { content: '\e8be'; } /* '' */
+.oi-play:before { content: '\e8be'; } /* '' */
 .oi-trophy:before { content: '\e8bf'; } /* '' */
 .oi-umbrella:before { content: '\e8c0'; } /* '' */
 .oi-playlist:before { content: '\e8c1'; } /* '' */
 .oi-rain:before { content: '\e8c2'; } /* '' */
 .oi-volume-low:before { content: '\e8c3'; } /* '' */
-.oi-warning-1:before { content: '\e8c4'; } /* '' */
+.oi-warning:before { content: '\e8c4'; } /* '' */
 .oi-record:before { content: '\e8c5'; } /* '' */
 .oi-repeat:before { content: '\e8c6'; } /* '' */
 .oi-wave:before { content: '\e8c7'; } /* '' */
